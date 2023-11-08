@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Список пунктов приёма
+	</title>
+    </head>
+ 
+    <body>
+        <ul type="none">
+            <li><a href=index.html>Всё о переработке</a></li>
+            <li><a href=plastic.html>Перерабатываемые фракции</a></li>
+        </ul>
+
+        <hr>
+
+        <details>
+            <summary> График </summary>
+            <form>
+                <p>
+                    <b>Значение по оси ОХ:</b><br>
+                    <input  type="radio"  name="graf" value="item">Пункт<br>
+                    <input  type="radio"  name="graf" value="city">Город<br>
+                    <input  type="radio"  name="graf" value="volume">Объёмы переработки <br>
+                    <input  type="radio"  name="graf" value="year">Год
+                </p>
+            </form>
+            
+            <form>
+                <p>
+                    <b>Результат</b><br>
+                    <input  type="radio"  name="graf" value="volume">Объемы переработки <br>
+                    <input  type="radio"  name="graf" value="year">Год
+                </p>
+            </form>
+            <input type="button" value="Построить">
+            <p>Здесь будет график</p>
+        </details>
+
+        <details>
+            <summary> Фильтр </summary>
+            <form>
+                Название пункта:
+                <input type="text" name="itemname" id="itemname">
+            </form>
+
+            <form>
+                Город:
+                <input type="text" name="city" id="city">
+            </form>
+
+            <form>
+                Год:
+                <input type="number" min="1990">
+            </form>
+
+            <form>
+                Объемы переработки:
+                <input type="number" min="2017">
+            </form>
+            <input type="button" value="Найти">
+        </details>
+
+        <details>
+            <summary> Сортировка </summary>
+        </details>
+
+        <table border="1">
+            <tr>
+                <td><b>Название пункта</b></td>
+                <td><b>Город</b></td>
+                <td><b>Год</b></td>
+                <td><b>Объемы переработки</b></td>
+            </tr>
+            <tr>
+                <td> РазДельный сбор</td>
+                <td> Владивосток</td>
+                <td> 2020</td>
+                <td> 180 </td>
+            </tr>
+            <tr>
+                <td> Зеленый город</td>
+                <td> Владивосток</td>
+                <td> 2020</td>
+                <td> 105 </td>
+            </tr>
+            <tr>
+                <td> РазДельный сбор</td>
+                <td> Санкт Петербург</td>
+                <td> 2018</td>
+                <td> 163 </td>
+            </tr>
+            <tr>
+                <td> Петромакс</td>
+                <td> Москва</td>
+                <td> 2020</td>
+                <td> 171 </td>
+            </tr>
+            <tr>
+                <td> Лидер</td>
+                <td> Новосибирск</td>
+                <td> 1997</td>
+                <td> 93 </td>
+            </tr>
+            <tr>
+                <td> Квант</td>
+                <td> Новосибирск</td>
+                <td> 2016</td>
+                <td> 151 </td>
+            </tr>
+            <tr>
+                <td> Квант</td>
+                <td> Владимир</td>
+                <td> 2015</td>
+                <td> 151 </td>
+            </tr>
+            <tr>
+                <td> Квант</td>
+                <td> Нижний новгород</td>
+                <td> 2011</td>
+                <td> 151 </td>
+            </tr>
+            <tr>
+                <td> Квант</td>
+                <td> Казань</td>
+                <td> 2019</td>
+                <td> 151 </td>
+            </tr>
+            <tr>
+                <td> Квант</td>
+                <td> Мурманск</td>
+                <td> 2023</td>
+                <td> 151 </td>
+            </tr>
+            <tr>
+                <td> Квант</td>
+                <td> Екатеринбург</td>
+                <td> 2021</td>
+                <td> 151 </td>
+            </tr>
+            <tr>
+                <td> Эко-Процессинг</td>
+                <td> Иваново</td>
+                <td> 2016</td>
+                <td> 151 </td>
+            </tr>
+            <tr>
+                <td> ЭкоЛэнд</td>
+                <td> Тверь</td>
+                <td> 2013</td>
+                <td> 151 </td>
+            </tr>
+            <tr>
+                <td> Чистый город</td>
+                <td> Пермь</td>
+                <td> 2022</td>
+                <td> 151 </td>
+            </tr>
+            <tr>
+                <td> Удмуртвторресурс</td>
+                <td> Рязань</td>
+                <td> 2008</td>
+                <td> 151 </td>
+            </tr>
+            <tr>
+                <td> Национальный экологический оператор</td>
+                <td> Кострома</td>
+                <td> 2011</td>
+                <td> 151 </td>
+            </tr>
+            <tr>
+                <td> Правильная утилизация</td>
+                <td> Вологда</td>
+                <td> 2010</td>
+                <td> 151 </td>
+            </tr>
+            <tr>
+                <td> РусВторЛом</td>
+                <td> Смоленск</td>
+                <td> 2023</td>
+                <td> 151 </td>
+            </tr>
+            <tr>
+                <td> РТ-Инвест</td>
+                <td> Барнаул</td>
+                <td> 2015</td>
+                <td> 151 </td>
+            </tr>
+            <tr>
+                <td> Эковектор</td>
+                <td> Самара</td>
+                <td> 2013</td>
+                <td> 151 </td>
+            </tr>
+        </table>
+
+    </body>
+</html>
